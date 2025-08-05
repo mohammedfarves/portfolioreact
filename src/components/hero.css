@@ -1,0 +1,95 @@
+/* hero.css */
+.heroHeadText {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin-top: -165px;
+  margin-left: 26px;
+}
+
+.heroSubText {
+  color: #d1d5db; /* Tailwind's text-white-100 */
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-left: 26px;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .heroHeadText {
+    font-size: 36px;
+      margin-top: 10px;
+  }
+
+  .heroSubText {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+  .heroHeadText {
+    font-size: 44px;
+  }
+
+  .heroSubText {
+    font-size: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .heroHeadText {
+    font-size: 48px;
+  }
+
+  .heroSubText {
+    font-size: 20px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1280px) {
+  .heroHeadText {
+    font-size: 66px;
+  }
+}
+
+/* hero.css */
+.heroDot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #915EFF;
+    position: absolute;
+    top: 10px;
+}
+
+.heroLine {
+  width: 6px;
+  height: 120px;
+  background: linear-gradient(to bottom, #915EFF, #6b21a8); /* violet-gradient */
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .heroDot {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -1px;
+  }
+
+  .heroLine {
+    height: 180px;
+    width: 10px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .heroLine {
+    height: 320px;
+  }
+}
+
